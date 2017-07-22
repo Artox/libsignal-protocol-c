@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.4)
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/CMakeModules/")
-project(signal-protocol-c)
+project(signal-protocol-c C)
 
 if(POLICY CMP0042)
 	cmake_policy(SET CMP0042 NEW)
